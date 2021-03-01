@@ -1,0 +1,288 @@
+html {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #19181A;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #19181A;
+}
+
+/* fonts used */
+@font-face {
+  font-family: Novus-Bold;
+  src: url(Novus-Bold.otf);
+}
+
+@font-face {
+  font-family: Novus-Bold-Italic;
+  src: url(Novus-Bold-Italic.otf);
+}
+
+@font-face {
+  font-family: Novus-Italic;
+  src: url(Novus-Italic.otf);
+}
+
+@font-face {
+  font-family: Novus-Light;
+  src: url(Novus-Light.otf);
+}
+
+@font-face {
+  font-family: Novus-Light-Italic;
+  src: url(Novus-Light-Italic.otf);
+}
+
+@font-face {
+  font-family: Novus-Regular;
+  src: url(Novus-Regular.otf);
+}
+
+@font-face {
+  font-family: ;
+  src: url();
+}
+
+#mainContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  width: 100%;
+  height: 200px;
+  background-color: #19181A;
+}
+
+#title {
+  margin: 0px;
+  padding: 0px;
+  padding-left: 50px;
+  border: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #e1e6e2;
+  width: 40%;
+  top: 40px;
+  left: 50px;
+}
+
+h1 {
+  font-family: Novus-Bold;
+  font-size: 60px;
+  margin: 0px;
+  padding: 0px;
+}
+
+h2 {
+  font-family: Novus-Bold;
+  font-size: 24px;
+  margin: 0px;
+  padding: 0px;
+}
+
+#sections {
+  margin: 0px;
+  padding: 50px;
+  border: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-family: Novus-Regular;
+  font-size: 20px;
+  color: #e1e6e2;
+  position: relative;
+  width: 55%;
+}
+
+#sections a {
+  padding: 20px;
+}
+
+a:link {
+  color: #e1e6e2;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #e1e6e2;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ab68e3;
+  text-decoration: none;
+}
+
+a:active {
+  color: #f7f7f7;
+  text-decoration: none;
+}
+
+#current-section {
+  font-family: Novus-Bold;
+}
+
+#cover {
+  width: 100%;
+  height: 850px;
+  background-color: #dfdae3;
+  top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+#identify {
+  font-family: Novus-Bold;
+  color: #eae8eb;
+  font-size: 144px;
+  transform: rotate(-90deg);
+  height: 700px;
+  width: 20%;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  position: relative;
+  white-space: nowrap;
+  top: 300px;
+}
+
+#abuse {
+  height: 100%;
+  width: 22%;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  position: absolute;
+}
+
+#types {
+  width: 100%;
+}
+
+h4 {
+  margin: 0px;
+  padding: 0px;
+  font-family: Novus-Bold;
+  font-size: 72px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+#types h4 {
+  color: #313131;
+}
+
+h5 {
+  margin: 0px;
+  padding: 0px;
+  padding-top: 10px;
+  padding-left: 220px;
+  padding-right: 20px;
+  border: 0px;
+  width: 25%;
+  font-size: 32px;
+  font-family: Novus-Regular;
+  color: #616161;
+}
+
+a:link h5 {
+  color: #616161;
+}
+
+a:visited h5 {
+  color: #616161;
+}
+
+a:hover h5 {
+  color: #ab68e3;
+  text-decoration: none;
+}
+
+a:active h5 {
+  color: #616161;
+}
+
+.types p {
+  margin: 0px;
+  padding: 0px;
+  padding-top: 5px;
+  padding-left: 220px;
+  padding-right: 50px;
+  border: 0px;
+  font-size: 18px;
+  font-family: Novus-Light;
+}
+
+#warning-signs {
+  width: 100%;
+  height: 1000px;
+  background-color: #19181A;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#warning-signs h4 {
+  color: #905bbd;
+  padding-top: 100px;
+}
+
+#warning-signs p {
+  background-color: #313131;
+  color: #dfdae3;
+  padding: 15px;
+  border-radius: 5px;
+  width: 85%;
+  font-size: 24px;
+  font-family: Novus-Light;
+  text-align: center;
+}
+
+#footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 150px;
+  background-color: #19181A;
+  margin: 0px;
+  padding: 0px;
+  padding-bottom: 25px;
+  border: 0px;
+  color: #e1e6e2;
+}
+
+#footer h3 {
+  margin: 0px;
+  padding: 0px;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  border: 0px;
+  font-family: Novus-Bold;
+  font-size: 20px;
+}
+
+#footer p {
+  margin: 0px;
+  padding: 2px;
+  border: 0px;
+  font-family: Novus-Light;
+  font-size: 16px;
+}
